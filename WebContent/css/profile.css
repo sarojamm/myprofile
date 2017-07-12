@@ -6,6 +6,18 @@
     transform: rotate(90deg);
     width:45%;    
 }
+.myborder{
+	 border: 1px solid red;
+ 	border-radius: 5px;
+	border-color:#E7E7E7;
+}
+.teamimage{ 
+	width:250px;
+	height:220px; 
+}
+.teamtext{ 
+	 text-align: center  !important; 
+}
 .jumbotron{
 	margin-bottom: 0px; !important;  
 }
