@@ -21,7 +21,7 @@ This is empty on purpose! Your code to build the resume will go here.
  	},
  	"WelcomeMessage":" Welcome ",
  	"skills":skills,
- 	"bioPic":"images/me.jpg"
+ 	"bioPic":"images/me.JPG"
  }; 
 var work = {
   "jobs": [
