@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  <link rel="stylesheet" href="css/profile.css"> 
+  <script> 
+$(function(){
+$("#include_nav").load("view/home/nav.html"); 
+$("#include_about").load("view/home/about.html"); 
+$("#include_ourteam").load("view/home/ourteam.html"); 
+$("#include_projects").load("view/home/projects.html"); 
+$("#include_contact").load("view/home/contactus.html"); 
+$("#include_footer").load("view/home/footer.html"); 
+});
+</script>
+</head>
+<body class="  noscroll"  >
+<div class="container">
+  <div class="row">
+    
+     
+    <div class="col-sm-12 col-md-12 col-lg-12">
+        <div  id="include_nav"  > </div>
+        <div data-spy = "scroll" data-target = "#navbar-example" data-offset = "0"  style = "overflow:auto; position: relative;">
+             <div id="include_about"  ></div>
+             <div id="include_ourteam"  ></div> 
+             <div id="include_projects"  ></div> 
+             <div id="include_contact" ></div>
+        </div>
+   </div>  
+   <div id="include_footer"  class="col-sm-12 col-md-12 col-lg-12"></div>
+  </div>
+  
+</div>
+
+
+
+ 
+ 
+  
+ 
+   
+ <!-- <div id="ourteam" name="ourteam" class="tab-pane fade" ng-include="'view/home/ourteam.html'"></div>  
+<div id="resume" name="resume" class="tab-pane fade" ng-include="'view/home/resume.html'"></div> 
+<div id="contactus" name="contactus" class="tab-pane fade" ng-include="'view/home/contactus.html'"></div>  -->
+ 
+</body>
+</html>

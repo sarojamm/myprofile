@@ -1,0 +1,14 @@
+.biopic{
+  width: 210px;
+  height: 210px;
+  background-color: yellow;
+  /* Rotate div */
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+}
+.imagesize{
+  width: 610px;
+  height: 410px;
+  background-color: yellow;
+}

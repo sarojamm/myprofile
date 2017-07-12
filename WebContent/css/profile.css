@@ -1,0 +1,37 @@
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width:45%;    
+}
+.jumbotron{
+	margin-bottom: 0px; !important;  
+}
+footer, #include_about,#include_ourteam,#include_contact,#include_projects {
+   border-radius: 5px; 
+   background:#E7E7E7;
+    border: 0px solid green;
+    padding: 15px;
+    margin: 2px; 
+}
+#include_about{
+	 margin-top: 53px;
+}
+.subtitle{
+	text-align: center;
+	text-transform: capitalize; 
+	padding: 0px 5px 0px 0px;
+	margin: 0px 5px 35px 0px;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+ 
+ .carousel-inner > .item > .carousel-caption > h3,
+ .carousel-inner > .item > .carousel-caption > p {
+    color:#000000;
+ }
