@@ -202,7 +202,7 @@ function addEducation(){
 function addHeader(){
 	var formattedName = HTMLheaderName.replace("%data%", bio.name);
  	$("#header").append(formattedName);
- 	var formattedRole = HTMLheaderRole.replace("%data%", bio.role  +" | <a href='/'   ><span class='blacktext'>Home</span></a>");
+ 	var formattedRole = HTMLheaderRole.replace("%data%", bio.role  +" | <a href='/myprofile'   ><span class='blacktext'>Home</span></a>");
 	$("#header").append(formattedRole); 
 	 
 }
