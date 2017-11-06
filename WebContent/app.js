@@ -3,9 +3,8 @@
 define([ 
         'controller',
         'service',
-        'directive'            
-              
-        
+        'directive' 
+ //       'controller/mygridCtrl'
 //        'common/directives/myHeader', 
 //       'common/directives/popupModel', 
    //    'common/directives/helpdoc',  
@@ -32,12 +31,11 @@ define([
 	})
     .config(function($routeProvider, $locationProvider) {
         $routeProvider
-           .when( '/',            { templateUrl : 'view/profile.html'})
+           .when( '/',            { templateUrl : 'indexprofile.html'})
 	       .when( '/ourteam',            { templateUrl : 'view/home/ourteam.html' })
 	       .when( '/contactus',            { templateUrl : 'view/home/contactus.html' })
 	       .when( '/resume',            { templateUrl : 'view/resume.html' })
 	       .when( '/resume',            { templateUrl : 'view/resume.html' })
-	     
 	       .otherwise(             {redirectTo: 'view/about.html', controller: 'homeCtrl'}); 
         }); 
 });

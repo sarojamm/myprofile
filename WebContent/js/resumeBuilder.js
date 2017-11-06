@@ -17,11 +17,11 @@ This is empty on purpose! Your code to build the resume will go here.
  		"mobile": "408-865-0122",
  		"email":"saroja.ammula@gmail.com",
  		"github":"sarojamm",
- 		"location":"Bay Area"
+ 		"location":"Oakland"
  	},
  	"WelcomeMessage":" Welcome ",
  	"skills":skills,
- 	"bioPic":"images/me.JPG"
+ 	"bioPic":"images/saroja.jpg"
  }; 
 var work = {
   "jobs": [
